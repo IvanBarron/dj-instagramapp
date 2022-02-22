@@ -1,0 +1,11 @@
+# Enviroment
+venv/
+
+
+# IDE
+*.vscode/
+
+
+# Django
+**/__pycache__/
+/db.sqlite3
