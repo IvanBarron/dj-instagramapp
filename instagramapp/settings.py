@@ -43,7 +43,7 @@ DJANGO_APPS = [
 
 LOCAL_APPS = [
     'posts.apps.PostsConfig',
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS
