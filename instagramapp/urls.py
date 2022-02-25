@@ -10,6 +10,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('items/', views.sort_items),
     path('hi/<str:name>/<int:age>', views.say_hi),
-    path('posts/', include('posts.urls'))
+    path('posts/', include('posts.urls')),
+    path('users/', include('users.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
  
